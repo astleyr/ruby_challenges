@@ -1,6 +1,10 @@
 #!/usr/bin/ruby
 
 # Finds a palindrome in an array of strings
+# Usage:
+# tests              = File.readlines('test_files/list_of_palindromes.txt')
+# palindrome_checker = Palindrome.new(tests)
+# palindrome_checker.find_palindrome
 class Palindrome
   attr_reader :words
 
@@ -18,8 +22,3 @@ class Palindrome
     word == word.reverse ? true : false
   end
 end
-
-# tests							 = File.readlines('test_files/list_of_palindromes.txt')
-# palindrome_checker = Palindrome.new(tests)
-
-# palindrome_checker.find_palindrome

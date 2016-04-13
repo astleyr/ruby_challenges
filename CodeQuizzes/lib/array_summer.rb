@@ -1,6 +1,10 @@
 #!/usr/bin/ruby
 
 # Accepts an array of integers and sums indvidual integers of an element
+# Usage:
+# tests  = File.readlines('test_files/list_of_integers.txt')
+# summer = ArraySummer.new(tests)
+# summer.calc_sum_to
 class ArraySummer
   attr_reader :integers
 
@@ -29,8 +33,3 @@ class ArraySummer
     end
   end
 end
-
-# tests  = File.readlines('test_files/list_of_integers.txt')
-# summer = ArraySummer.new(tests)
-
-# summer.calc_sum_total
