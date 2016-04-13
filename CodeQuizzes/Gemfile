@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+# Debugging
+gem 'pry'
+
+# Metrics
+gem 'rubocop'
+gem 'rubycritic'
+
+#testing
+gem 'rspec'
+gem 'simplecov'
+gem 'mutant-rspec'
+
